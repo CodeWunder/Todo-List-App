@@ -52,7 +52,7 @@ const TodoItem = ({
             searchTerm !== ''
               ? item.value.replace(
                   searchTerm,
-                  `<span class="bg-purple-500 bg-gradient-to-r from-purple-500 to-pink-600 font-bold text-transparent">${searchTerm}</span>`,
+                  `<span class="bg-purple-100 bg-gradient-to-r from-purple-100 to-pink-100 font-bold text-transparent">${searchTerm}</span>`,
                 )
               : item.value,
         }}
