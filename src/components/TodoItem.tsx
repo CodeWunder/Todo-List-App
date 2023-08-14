@@ -52,7 +52,7 @@ const TodoItem = ({
             searchTerm !== ''
               ? item.value.replace(
                   searchTerm,
-                  `<span class="bg-blue-100 font-bold">${searchTerm}</span>`,
+                  `<span class="bg-purple-500 bg-gradient-to-r from-purple-500 to-pink-600 font-bold text-transparent">${searchTerm}</span>`,
                 )
               : item.value,
         }}
@@ -74,8 +74,8 @@ const TodoItem = ({
           onClick={onEditTodoItem}
           type='button'
           className={clsx(
-            'flex h-10 w-10 items-center justify-center rounded-lg bg-blue-700',
-            'hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300',
+            'flex h-10 w-10 items-center justify-center rounded-lg bg-purple-500 bg-gradient-to-r from-purple-500 to-pink-600',
+            'hover:bg-pink-600 focus:outline-none focus:ring-4 focus:ring-pink-300',
           )}
         >
           <EditIcon />
@@ -98,3 +98,4 @@ const TodoItem = ({
 }
 
 export default TodoItem
+
