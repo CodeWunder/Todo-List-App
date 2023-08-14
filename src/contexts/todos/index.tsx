@@ -9,8 +9,8 @@ export const useTodos = () => useContext(TodosContext)
 export const useTodosDispatch = () => useContext(TodosDispatch)
 
 const initialTodos: TodoItemProps[] = [
-  { value: "Minh's next task", isChecked: false },
-  { value: 'Smatyx Todos App', isChecked: true },
+  { value: "Codewunder's next task", isChecked: false },
+  { value: 'Create a To-do list app', isChecked: true },
 ]
 
 export function TodosProvider({ children }: { children: React.ReactNode }) {
