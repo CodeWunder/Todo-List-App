@@ -58,7 +58,7 @@ const TodoPopup = ({ onClosePopup, index, data }: TodoPopupProps) => {
                 'w-full bg-gray-50 p-4',
                 'rounded-lg border border-gray-300',
                 'text-gray-900',
-                'focus:border-blue-500 focus:ring-blue-500',
+                'focus:border-teal-500 focus:ring-teal-500',
               )}
               placeholder='Add Todos'
               value={todoValue}
@@ -75,9 +75,9 @@ const TodoPopup = ({ onClosePopup, index, data }: TodoPopupProps) => {
             <button
               type='submit'
               className={clsx(
-                'rounded-lg bg-emerald-700 px-5 py-2.5',
+                'rounded-lg bg-teal-500 px-5 py-2.5',
                 'text-center font-medium text-white',
-                'hover:bg-emerald-800 focus:outline-none focus:ring-4 focus:ring-emerald-300',
+                'hover:bg-teal-600 focus:outline-none focus:ring-4 focus:ring-teal-300',
               )}
             >
               Save
@@ -103,3 +103,4 @@ const TodoPopup = ({ onClosePopup, index, data }: TodoPopupProps) => {
 }
 
 export default TodoPopup
+
