@@ -14,7 +14,7 @@ const ToggleButton = ({ onToggle, todosAmount, isShow }: ToggleButtonProps) => {
       type='button'
       className={clsx(
         isShow
-          ? 'bg-emerald-700 hover:bg-emerald-800 focus:ring-emerald-300'
+          ? 'bg-teal-500 hover:bg-teal-600 focus:ring-teal-300'
           : 'bg-gray-400 hover:bg-gray-500 focus:ring-gray-100',
         'mt-2.5 flex items-center gap-2 rounded-lg px-4 py-2.5',
         'transition-all focus:outline-none focus:ring-4',
@@ -29,3 +29,4 @@ const ToggleButton = ({ onToggle, todosAmount, isShow }: ToggleButtonProps) => {
 }
 
 export default ToggleButton
+
