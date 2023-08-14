@@ -21,7 +21,7 @@ const ToggleButton = ({ onToggle, todosAmount, isShow }: ToggleButtonProps) => {
       )}
     >
       <span className='font-medium text-white'>
-        Completed Todos {todosAmount}
+        Completed Tasks {todosAmount}
       </span>
       <ToggleIcon isShow={isShow} />
     </button>
